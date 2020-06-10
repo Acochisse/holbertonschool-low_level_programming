@@ -1,1 +1,1 @@
-# holbertonschool-low_level_programming
+This repo contains all projects related to the low level programming branch at holberton school
