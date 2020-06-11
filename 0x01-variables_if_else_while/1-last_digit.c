@@ -4,7 +4,7 @@
 
 /**
 * main - Entry point
-* this program takes the last digit of a random number 5>0>6
+* this program takes the last digit of a random number
 * Return: 0 (success)
 */
 
@@ -17,7 +17,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	x = n % 10;
 
-	printf("last digit of %i is %i ", n, x);
+	printf("Last digit of %i is %i ", n, x);
 	if (x > 5)
 	{
 		printf("and is greater than 5\n");
