@@ -7,15 +7,10 @@
  */
 int _isalpha(int c)
 {
-	int is_alpha;
-
-	if (c >= 'A' && c <= 'Z')
-		is_alpha = 1;
-
-	else if (c >= 'a' && c <= 'z')
-
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	{
+		return (1);
+	}
 	else
-		is_alpha = 0;
-
-	return (is_alpha);
+		return (0);
 }
