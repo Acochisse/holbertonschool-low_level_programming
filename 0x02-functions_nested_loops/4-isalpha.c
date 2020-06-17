@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- * _islower - checks if a..z or not
+ * _isalpha - checks if a..z or not
  *@c: character to be checked against
  * Return: 0 (Success)
  */
-int _islower(int c)
+int _isaplha(int c)
 {
 	int is_uppercase;
 
