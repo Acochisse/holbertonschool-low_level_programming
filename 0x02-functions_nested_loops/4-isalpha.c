@@ -3,7 +3,7 @@
 /**
  * _isalpha - checks if a..z or not
  *@c: character to be checked against
- * Return: 0 (Success)
+ * Return: 1 if alpha, if not 0
  */
 int _isalpha(int c)
 {
