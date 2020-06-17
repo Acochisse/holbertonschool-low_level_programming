@@ -12,6 +12,6 @@ int _islower(int c)
 	if (c >= 'a' && c <= 'z')
 		is_lowercase = 1;
 	else
-		is lowercase = 0;
-	return (is lowercase);
+		is_lowercase = 0;
+	return (is_lowercase);
 }
