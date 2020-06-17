@@ -1,8 +1,8 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
-
+#ifndef _HOLBERTON_H_
+#define _HOLBERTON_H_
 #include <stdio.h>
-
 void positive_or_negative(int i);
-
-#endif /* HOLBERTON_H */
+int largest_number(int a, int b, int c);
+int convert_day(int month, int day);
+void print_remaining_days(int month, int day, int year);
+#endif
