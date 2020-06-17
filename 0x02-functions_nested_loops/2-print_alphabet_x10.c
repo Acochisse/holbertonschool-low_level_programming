@@ -3,23 +3,18 @@
 /**
  * print_alphabet_x10 - prints the alphabet 10x
  *
- * Return: void
+ *
  */
 
 void print_alphabet_x10(void)
 {
-	int count = 0;
-	char x;
+	int x;
+	int y;
 
-	while (count < 10)
+	for (y = 0; y < 10; y++)
 	{
-		x = 'a';
-		while (x <= 'z');
-		{
+		for (x = 'a'; x <= 'z'; x++)
 			_putchar(x);
-			x++;
-		}
-		_putchar('\n');
-	        count++;
+		putchar('\n');
 	}
 }
