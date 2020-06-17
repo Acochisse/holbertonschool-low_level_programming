@@ -5,13 +5,17 @@
  *@c: character to be checked against
  * Return: 0 (Success)
  */
-int _isaplha(int c)
+int _isalpha(int c)
 {
-	int is_uppercase;
+	int is_alpha;
 
 	if (c >= 'A' && c <= 'Z')
-		is_uppercase = 1;
+		is_alpha = 1;
+
+	else if (c >= 'a' && c <= 'z')
+
 	else
-		is_uppercase = 0;
-	return (is_uppercase);
+		is_alpha = 0;
+
+	return (is_alpha);
 }
