@@ -1,7 +1,8 @@
 #include "holberton.h"
+
 /**
 * reset_to_98 - replaces value of n=98
-* @*n: integer to set
+* @n: integer to set
 * Return: nothing
 */
 
