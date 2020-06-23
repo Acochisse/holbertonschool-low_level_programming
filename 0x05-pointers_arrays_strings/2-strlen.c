@@ -9,11 +9,11 @@
 */
 int _strlen(char *s)
 {
-	int length;
+	int len;
 
 	if (s)
 	{
-		while (*(s + length));
+		while (*(s + len));
 	}
-	return (length);
+	return (len);
 }
