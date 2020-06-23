@@ -2,7 +2,7 @@
 
 /**
 * _puts - prints the string *str
-* @str: imput string
+* @str: input string
 *
 * Return: nothing
 *
@@ -10,12 +10,12 @@
 
 void _puts(char *str)
 {
-	int i;
+	int index;
 
-	i = 0;
-	while (*str[i] != '\0')
+	index = 0;
+	while (str[index] != '\0')
 	{
-		_putchar(*str[i]);
+		_putchar(str[index]);
 		i++;
 	}
 	_putchar('\n');
