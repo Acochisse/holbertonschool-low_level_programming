@@ -20,14 +20,14 @@ int main(void)
 	srand(time(NULL));
 	sum = 0;
 	x = 0;
-	while (sum < (2772 -122))
+	while (sum < (1440 -122))
 	{
 		r = rand() % 62;
 		password[x] = array[r];
 		sum = sum + password[x];
 		x++;
 	}
-	r = 2772 - sum;
+	r = 1440 - sum;
 	password[x] = r;
 	x++;
 	password[x] = '\0';
