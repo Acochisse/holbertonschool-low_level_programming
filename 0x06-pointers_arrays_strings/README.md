@@ -1,11 +1,11 @@
 This directory contains files related to
-  ___  ____ ____    _ ____ ____ ___
-  |--' |--< [__] ___| |=== |___  |
-               _     ___
-               _) -/  _/
-              /__ /  /
-
-	0x06-pointers_arrays_strings
+|  ___  ____ ____    _ ____ ____ ___ |
+|  |--' |--< [__] ___| |=== |___  |  |
+|               _     ___            |
+|               _) -/  _/            |
+|              /__ /  /              |
+|                                    |
+|	0x06-pointers_arrays_strings     |
 
 .c File Name               Prototype
 
