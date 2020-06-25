@@ -14,14 +14,6 @@ int _strlen(char *s)
 	return (len);
 }
 
-#include "holberton.h"
-/**
-* _strcat - Convolves two strings
-* @dest: output string
-* @src: input string
-*
-* Return: pointer to destination
-*/
 
 #include "holberton.h"
 
