@@ -12,13 +12,17 @@ void print_chessboard(char (*a)[8])
 	int i;
 	int x;
 
-	for (i = 0; i < 8; i++)
+	i = 0;
+	while (i < 8)
 	{
-		for (x = 0; x < 8; x++)
+		x = 0;
+		while (x < 8)
 		{
-			_putchar(a[i][x];
+			_putchar(a[i][x]);
+			if (x == 7)
+				_putchar ('\n');
+			x++;
 		}
-				if (j == 7)
-					_putchar('\n');
+		i++;
 	}
 }
