@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * set_string - set pointer to char
- * @s: input pointer
- * @to: dest pointer
+ * set_string -  sets a string to a second string
+ * @s: input string
+ * @to: output string
  *
  * Return: nothing
  */
