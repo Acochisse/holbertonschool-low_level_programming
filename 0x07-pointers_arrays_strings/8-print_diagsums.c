@@ -1,25 +1,35 @@
-#include "holberton.h"
+#include <stdio.h>
 
 /**
- * print_diagsums - prints the sum of the two
- * @a: input pointer
- * @size: size of the matrix
+ * print_diagsums
  *
- * Return: nothing
+ *
+ *
+ *
  */
-
 void print_diagsums(int *a, int size)
 {
 	int i;
-	int sum1 = 0;
-	int sum2 = 0;
+	int value;
+	int sumx;
+	int sumy;
 
-	for (i = 0; i < (size * size); i++)
+	i = 0;
+	value = 0;
+	sumx = sumy = 0;
+
+	while (i < (size * size))
 	{
-		if (i % (size + 1) == 0)
-			sum1 += *(a + i);
-		if (i % (size - 1) == 0 && i != 0 && i < (size * size - 1))
-			sum2 += *(a + i);
+		value = a[i];
+		sumx = sumx + value;
+		i = i + size + 1;
 	}
-	printf("%d, %d\n", sum1, sum2);
+	i = size - 1;
+	while (i < ((size * size) - 1))
+		{
+			value = a[i];
+			sumy = sumy + value;
+			i = i + (size -1);
+		}
+		printf("%d, %d\n", sumx, sumy);
 }
