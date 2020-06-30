@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * strpbrk - searches a string of any of a set of bytes
+ * _strpbrk - searches a string of any of a set of bytes
  * @s: first string
  * @accept: second string
  * Return: pointer to byte in s that matches
