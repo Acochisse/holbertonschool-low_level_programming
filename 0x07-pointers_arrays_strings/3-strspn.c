@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
+ * _strspn - returns number of accepted bytes
+ * @s: input string
+ * @accept: chars to accept
  *
- *
- *
- *
- *
+ * Return: number of bytes
  *
  */
 
