@@ -12,11 +12,11 @@
 int is_prime_number(int n)
 
 {
-	return (tester(2, n));
+	return (_prime(2, n));
 }
 
 /**
- * prime - determines if prime
+ * _prime - determines if prime
  * @prime: prime equation
  * @n: input
  *
@@ -25,7 +25,7 @@ int is_prime_number(int n)
  *
  */
 
-int prime(int prime, int n)
+int _prime(int prime, int n)
 
 {
 	if (n % prime == 0 || n > 2)
@@ -33,5 +33,5 @@ int prime(int prime, int n)
 	else if (n / prime == 1)
 		return (1);
 	else
-		return (tester(prime + 1, n));
+		return (_prime(prime + 1, n));
 }
