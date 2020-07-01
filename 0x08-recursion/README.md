@@ -1,5 +1,6 @@
 This directory is related to project 219 0x08-recursion
-07/01/2020 BS
+
+Stewart - 07/01/2020
 
 
 0-puts_recursion.c         _puts_recursion - prints string recursively
