@@ -8,7 +8,7 @@ char *_strdup(char *str);
  * @age: float type
  * @owner: char type pointer
  *
- * Return: NUll if fail or pointer
+ * Return: Null if fail or pointer
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
