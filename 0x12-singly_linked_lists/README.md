@@ -1,0 +1,1 @@
+This directory is related to project 229 - 0x12-singly_linked_lists
