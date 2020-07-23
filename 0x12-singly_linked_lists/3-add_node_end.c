@@ -23,7 +23,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		end_node->str = strdup(str);
 		while (str[c] != '\0')
 			c++;
-		end_node->len = 0;
+		end_node->len = c;
 	}
 
 	else
@@ -38,14 +38,11 @@ list_t *add_node_end(list_t **head, const char *str)
 	{
 		cursor = *head;
 		while (cursor->next != NULL)
-		{
 			cursor = cursor->next;
-		}
-	cursor->next = end_node;
+		cursor->next = end_node;
 	}
-
 	else
-		*head = end_node;
+	*head = end_node;
 
 	return (end_node);
 }
