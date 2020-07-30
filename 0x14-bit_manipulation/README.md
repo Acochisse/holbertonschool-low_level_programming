@@ -1,0 +1,1 @@
+This directory is related to project 232 - 0x14-bit_manipulation
