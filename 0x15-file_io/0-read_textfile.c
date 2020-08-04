@@ -3,7 +3,7 @@
 /**
  * read_textfile - read a text file and print to stdout
  * @filename: Name of the file to be read
- * @letters: struct
+ * @letters: number of letters innit
  * Return: Number of letters read and printed,  0 on fail
  */
 
@@ -11,7 +11,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 {
 	int fd;
-	ssize_t size, wr;
+	ssize_t wr, rd;
 
 
 	char *c;
@@ -24,10 +24,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	c = malloc(sizeof(char) * letters);
 	if (c == NULL)
 		return (0);
-	wr = read(fd, c, letters);
-	size = write(STDOUT_FILENO, c, wr);
+	rd = read(fd, c, letters);
+	wr = write(STDOUT_FILENO, c, rd);
 
 	close(fd);
 	free(c);
-	return (size);
+	return (wr);
 }
