@@ -2,11 +2,9 @@
 
 /**
  * interpolation_search - searches an index via interpolation
- *
  * @array: target array
  * @size: size of target array
  * @value: target value within array
- *
  * Return: index position of value or -1
  */
 
