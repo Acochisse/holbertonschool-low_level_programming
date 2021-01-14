@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * jump search - function that sorts an array by jump search
+ * jump_search - function that sorts an array by jump search
  * @array: target array
  * @size: size of target array
  * @value: target value
@@ -13,7 +13,7 @@ int jump_search(int *array, size_t size, int value)
 {
 	size_t step = sqrt(size), previous = 0;
 
-	long unsigned int i = 0, j;
+	unsigned long int i = 0, j;
 
 	if (!array || !size)
 		return (-1);
