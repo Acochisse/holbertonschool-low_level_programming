@@ -20,7 +20,7 @@ void printf_array(int *array, size_t size)
 		if (i != size - 1)
 			printf(",");
 	}
-	printf(\n);
+	printf("\n");
 }
 
 /**
